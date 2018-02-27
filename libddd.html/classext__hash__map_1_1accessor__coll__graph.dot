@@ -1,0 +1,6 @@
+digraph "ext_hash_map&lt; Key, Data, HashKey, EqualKey &gt;::accessor"
+{
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node1 [label="{ext_hash_map\< Key,\l Data, HashKey, EqualKey\l \>::accessor\n|- has_result_\l- current_bucket_\l|+ operator*()\l+ operator-\>()\l+ accessor()\l+ empty()\l+ release()\l- accessor()\l- operator=()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+}

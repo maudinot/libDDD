@@ -1,0 +1,10 @@
+digraph "UniqueTableId&lt; T, ID &gt;"
+{
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node1 [label="{UniqueTableId\< T, ID \>\n|- index\l- head\l- refs\l- marks\l- peak_size_\l|+ mark()\l+ ref()\l+ deref()\l+ begin()\l+ end()\l+ UniqueTableId()\l+ resolve()\l+ operator()()\l+ size()\l+ peak_size()\l+ garbage()\l+ instance()\l- push()\l- next_id()\l- print_free_list()\l- print_table()\l- print_marked()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [color="grey25",fontsize="10",style="solid",label=" -table" ,arrowhead="odiamond",fontname="FreeSans"];
+  Node2 [label="{d3::hash_set\< id_t,\l id_hash, id_compare \>\n||}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structd3_1_1hash__set.html"];
+  Node3 -> Node2 [dir="back",color="orange",fontsize="10",style="solid",label=" \< id_t, id_hash, id\l_compare \>" ,fontname="FreeSans"];
+  Node3 [label="{d3::hash_set\< Key,\l Hash, Compare, Allocator \>\n||}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structd3_1_1hash__set.html"];
+}

@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="d3::util::hash\< const\l std::vector\< int \> \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structd3_1_1util_1_1hash_3_01const_01std_1_1vector_3_01int_01_4_01_4.html"];
+}

@@ -1,0 +1,8 @@
+digraph "dotHighlight"
+{
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node1 [label="{dotHighlight\n||+ ~dotHighlight()\l+ dotHighlight()\l+ initialize()\l+ setVarAlignment()\l+ addSDD()\l+ addSDD()\l+ setColor()\l+ exportDot()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [color="grey25",fontsize="10",style="solid",label=" -de" ,arrowhead="odiamond",fontname="FreeSans"];
+  Node2 [label="{dotExporter\n|# name\l# d3name\l# entryd3Name\l# entryd3Nb\l# entryName\l# entryNb\l# nextid\l# nextPid\l# nextMid\l# nextAid\land 6 more...\l|+ ~dotExporter()\l+ setPath()\l+ collect()\l+ collect()\l+ dotExporter()\l+ printColor()\l+ setColor()\l+ init()\l+ setAlign()\l+ label()\l+ operator()()\l+ printLevels()\l+ finish()\l# collect()\l# collect()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classdotExporter.html"];
+}

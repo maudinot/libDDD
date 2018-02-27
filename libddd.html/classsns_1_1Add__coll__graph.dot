@@ -1,0 +1,12 @@
+digraph "sns::Add"
+{
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node1 [label="{sns::Add\n|+ parameters\l- have_id\l|+ Add()\l+ get_have_id()\l+ operator==()\l+ hash()\l+ clone()\l+ has_image()\l+ is_selector()\l+ invert()\l+ skip_variable()\l+ get_range()\l+ get_partition()\l+ eval()\l+ mark()\l+ print()\l- factorizeByLevel()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="FreeSans"];
+  Node2 [label="{_GShom\n|- _refCounter\l|+ has_image_skip()\l+ skip_variable()\l+ is_selector()\l+ get_range()\l+ _GShom()\l+ ~_GShom()\l+ operator==()\l+ hash()\l+ clone()\l+ has_image()\land 11 more...\l+ get_concret()\l- eval_skip()\l- immediat()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class__GShom.html",tooltip="The concrete data class for Homomorphisms. "];
+  Node3 -> Node1 [color="grey25",fontsize="10",style="solid",label=" -partition_cache" ,arrowhead="odiamond",fontname="FreeSans"];
+  Node3 [label="{hash_map\< int, partition \>\n||}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structhash__map.html"];
+  Node4 -> Node3 [dir="back",color="orange",fontsize="10",style="solid",label=" \< int, partition \>" ,fontname="FreeSans"];
+  Node4 [label="{hash_map\< Key, Data,\l HashKey, EqualKey \>\n||}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structhash__map.html"];
+}

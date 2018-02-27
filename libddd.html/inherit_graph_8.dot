@@ -1,0 +1,19 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="_SDED",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class__SDED.html"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="_SDED_Add",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class__SDED__Add.html"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="_SDED_Concat",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class__SDED__Concat.html"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="_SDED_GSDD",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class__SDED__GSDD.html"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="_SDED_Minus",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class__SDED__Minus.html"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="_SDED_Mult",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class__SDED__Mult.html"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7 [label="_SDED_Shom",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class__SDED__Shom.html"];
+}

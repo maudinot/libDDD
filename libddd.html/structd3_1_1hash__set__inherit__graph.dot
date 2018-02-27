@@ -1,0 +1,10 @@
+digraph "d3::hash_set&lt; Key, Hash, Compare, Allocator &gt;"
+{
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node1 [label="{d3::hash_set\< Key,\l Hash, Compare, Allocator \>\n||}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="orange",fontsize="10",style="solid",label=" \< id_t, id_hash, id\l_compare \>" ,fontname="FreeSans"];
+  Node2 [label="{d3::hash_set\< id_t,\l id_hash, id_compare \>\n||}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structd3_1_1hash__set.html"];
+  Node1 -> Node3 [dir="back",color="orange",fontsize="10",style="solid",label=" \< const T * \>" ,fontname="FreeSans"];
+  Node3 [label="{d3::hash_set\< const\l T * \>\n||}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structd3_1_1hash__set.html"];
+}

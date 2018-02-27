@@ -1,0 +1,10 @@
+digraph "SDD"
+{
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node1 [label="{SDD\n||+ SDD()\l+ SDD()\l+ SDD()\l+ SDD()\l+ SDD()\l+ ~SDD()\l+ operator=()\l+ operator=()\l* operator=()\l* operator=()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="FreeSans"];
+  Node2 [label="{GSDD\n|+ one\l+ null\l+ top\l- concret\l|+ refCounter()\l+ size()\l+ node_size()\l+ nbsons()\l+ nbStates()\l+ GSDD()\l+ GSDD()\l+ GSDD()\l+ GSDD()\l+ GSDD()\l+ GSDD()\l+ GSDD()\l+ GSDD()\l+ operator==()\l+ operator!=()\l+ operator\<()\l+ newcopy()\l+ set_intersect()\l+ set_union()\l+ set_minus()\l+ empty()\l+ empty_set()\l+ set_equal()\l+ set_less_than()\l+ set_size()\l+ set_hash()\l+ set_print()\l- print()\l* Valuation\l* const_iterator\l* variable()\l* begin()\l* end()\l* GSDD()\l* GSDD()\l* GSDD()\l* GSDD()\l* GSDD()\l* GSDD()\l* GSDD()\l* GSDD()\l* one\l* null\l* top\l* operator==()\l* operator!=()\l* operator\<()\l* mark()\l* hash()\l* statistics()\l* garbage()\l* pstats()\l* peak()\l* newcopy()\l* set_intersect()\l* set_union()\l* set_minus()\l* empty()\l* empty_set()\l* set_equal()\l* set_less_than()\l* set_size()\l* set_hash()\l* set_print()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classGSDD.html",tooltip="This class is the base class representing a hierarchical Set Decision Diagram. "];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="FreeSans"];
+  Node3 [label="{DataSet\n||+ ~DataSet()\l+ newcopy()\l+ set_intersect()\l+ set_union()\l+ set_minus()\l+ empty()\l+ empty_set()\l+ set_equal()\l+ set_less_than()\l+ set_size()\l+ set_hash()\l+ set_print()\l+ mark()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classDataSet.html",tooltip="This class is an abstraction of a set of data. "];
+}

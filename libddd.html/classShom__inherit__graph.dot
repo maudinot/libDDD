@@ -1,0 +1,8 @@
+digraph "Shom"
+{
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node1 [label="{Shom\n|+ null\l|+ Shom()\l+ Shom()\l+ Shom()\l+ Shom()\l+ ~Shom()\l+ operator=()\l+ operator=()\l* Shom()\l* Shom()\l* Shom()\l* Shom()\l* ~Shom()\l* operator=()\l* operator=()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="FreeSans"];
+  Node2 [label="{GShom\n|+ id\l- concret\l- fixpointStrategy_\l- saturationStrategy_\l|+ invert()\l+ has_image()\l+ compose()\l+ refCounter()\l+ GShom()\l+ GShom()\l+ GShom()\l+ GShom()\l+ GShom()\l+ GShom()\l+ GShom()\l+ operator()()\l+ eval()\l+ add()\l+ getFixpointStrategy()\l+ setFixpointStrategy()\l+ getSaturationStrategy()\l+ setSaturationStrategy()\l* fixpoint\l* localApply\l* localApply\l* add\l* operator+\l* operator&\l* operator*\l* operator*\l* operator^\l* operator^\l* operator-\l* GShom()\l* GShom()\l* GShom()\l* GShom()\l* GShom()\l* GShom()\l* GShom()\l* range_t\l* range_it\l* full_range\l* operator==()\l* operator!=()\l* operator\<()\l* is_selector()\l* skip_variable()\l* get_range()\l* operator()()\l* eval()\l* mark()\l* hash()\l* statistics()\l* cache_size()\l* cache_peak()\l* pstats()\l* garbage()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classGShom.html",tooltip="This class is the base class for Homomorphisms over SDD. "];
+}

@@ -1,0 +1,6 @@
+digraph "Statistic"
+{
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node1 [label="{Statistic\n|- nb_Stat\l- DDD_size\l- SDD_size\l- DDD_peak_size\l- SDD_peak_size\l- total_time\l- memory\l- nbHom\l- nbShom\l- ddd_cache\land 6 more...\l|+ Statistic()\l+ Statistic()\l+ print_header()\l+ print_trailer()\l+ print_line()\l+ print_table()\l+ print_legend()\l+ setStyle()\l+ getTime()\l+ getNbStates()\l- load()\l- load()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+}

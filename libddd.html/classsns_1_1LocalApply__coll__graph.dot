@@ -1,0 +1,13 @@
+digraph "sns::LocalApply"
+{
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node1 [label="{sns::LocalApply\n|+ target\l|+ LocalApply()\l+ LocalApply()\l+ skip_variable()\l+ is_selector()\l+ get_range()\l+ has_image()\l+ eval()\l+ mark()\l+ hash()\l+ invert()\l+ operator==()\l+ clone()\l+ print()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="FreeSans"];
+  Node2 [label="{_GShom\n|- _refCounter\l|+ has_image_skip()\l+ skip_variable()\l+ is_selector()\l+ get_range()\l+ _GShom()\l+ ~_GShom()\l+ operator==()\l+ hash()\l+ clone()\l+ has_image()\land 11 more...\l+ get_concret()\l- eval_skip()\l- immediat()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class__GShom.html",tooltip="The concrete data class for Homomorphisms. "];
+  Node3 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +h" ,arrowhead="odiamond",fontname="FreeSans"];
+  Node3 [label="{GHom\n|+ full_range\l|+ GHom()\l+ GHom()\l+ GHom()\l+ get_range()\l+ invert()\l+ has_image()\l+ negate()\l+ operator()()\l+ eval()\l+ skip_variable()\l+ compose()\l+ refCounter()\l+ GHom()\l+ GHom()\l+ GHom()\l+ GHom()\l+ operator==()\l+ operator!=()\l+ operator\<()\l+ is_selector()\l+ add()\l+ ccompose()\l* GHom()\l* GHom()\l* GHom()\l* GHom()\l* operator==()\l* operator!=()\l* operator\<()\l* is_selector()\l* mark()\l* hash()\l* statistics()\l* pstats()\l* garbage()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classGHom.html",tooltip="This class is the base class representing a homomorphism over DDD. "];
+  Node4 -> Node3 [color="grey25",fontsize="10",style="solid",label=" -concret" ,arrowhead="odiamond",fontname="FreeSans"];
+  Node4 [label="{_GHom\n|- refCounter\l- marking\l- immediat\l- creation_counter\l|+ has_image_skip()\l+ skip_variable()\l+ is_selector()\l+ get_range()\l+ invert()\l+ _GHom()\l+ ~_GHom()\l+ operator==()\l+ operator\<()\l+ hash()\land 7 more...\l+ get_concret()\l- eval_skip()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class__GHom.html",tooltip="The concrete data class for Homomorphisms. "];
+  Node3 -> Node3 [color="grey25",fontsize="10",style="solid",label=" +id" ,arrowhead="odiamond",fontname="FreeSans"];
+}

@@ -1,0 +1,6 @@
+digraph "_GDDD"
+{
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node1 [label="{_GDDD\n|- variable\l- valuation_size\l|+ ~_GDDD()\l+ begin()\l+ end()\l+ operator==()\l+ operator\<()\l+ hash()\l+ mark()\l+ clone()\l+ create_unique_GDDD()\l+ resolve()\l+ operator delete()\l- alpha_addr()\l- _GDDD()\l- _GDDD()\l- _GDDD()\l- operator=()\l- _GDDD()\l- operator=()\l- operator new()\l- operator new()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+}

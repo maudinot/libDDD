@@ -1,0 +1,6 @@
+digraph "AdditiveMap&lt; K, V, EqualKey &gt;"
+{
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node1 [label="{AdditiveMap\< K, V,\l EqualKey \>\n|- map\l|+ AdditiveMap()\l+ end()\l+ begin()\l+ find()\l+ addAll()\l+ addAll()\l+ add()\l+ remove()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+}

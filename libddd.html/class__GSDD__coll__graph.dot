@@ -1,0 +1,6 @@
+digraph "_GSDD"
+{
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node1 [label="{_GSDD\n|+ variable\l+ valuation\l+ _refCounter\l|+ _GSDD()\l+ _GSDD()\l+ ~_GSDD()\l+ _GSDD()\l+ clone()\l+ operator\<()\l+ operator==()\l+ mark()\l+ hash()\l+ mark_if_refd()\l+ ref()\l+ deref()\l+ refCounter()\l+ is_marked()\l+ set_mark()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+}

@@ -1,0 +1,14 @@
+digraph "IntDataSet"
+{
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node1 [label="{IntDataSet\n|- data\l- marktable\l- empty_\l|+ begin()\l+ end()\l+ IntDataSet()\l+ IntDataSet()\l+ IntDataSet()\l+ ~IntDataSet()\l+ newcopy()\l+ set_intersect()\l+ set_union()\l+ set_minus()\land 8 more...\l+ garbage()\l- IntDataSet()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="FreeSans"];
+  Node2 [label="{DataSet\n||+ ~DataSet()\l+ newcopy()\l+ set_intersect()\l+ set_union()\l+ set_minus()\l+ empty()\l+ empty_set()\l+ set_equal()\l+ set_less_than()\l+ set_size()\l+ set_hash()\l+ set_print()\l+ mark()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classDataSet.html",tooltip="This class is an abstraction of a set of data. "];
+  Node3 -> Node1 [color="grey25",fontsize="10",style="solid",label=" -canonical" ,arrowhead="odiamond",fontname="FreeSans"];
+  Node3 [label="{UniqueTable\< T \>\n||+ UniqueTable()\l+ UniqueTable()\l+ operator()()\l+ size()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classUniqueTable.html",tooltip="This class implements a unicity table mechanism, based on an STL hash_set. "];
+  Node4 -> Node3 [color="grey25",fontsize="10",style="solid",label=" +table" ,arrowhead="odiamond",fontname="FreeSans"];
+  Node4 [label="{d3::hash_set\< const\l T * \>\n||}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structd3_1_1hash__set.html"];
+  Node5 -> Node4 [dir="back",color="orange",fontsize="10",style="solid",label=" \< const T * \>" ,fontname="FreeSans"];
+  Node5 [label="{d3::hash_set\< Key,\l Hash, Compare, Allocator \>\n||}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structd3_1_1hash__set.html"];
+}

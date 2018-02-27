@@ -1,0 +1,6 @@
+digraph "DataSet"
+{
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node1 [label="{DataSet\n||+ ~DataSet()\l+ newcopy()\l+ set_intersect()\l+ set_union()\l+ set_minus()\l+ empty()\l+ empty_set()\l+ set_equal()\l+ set_less_than()\l+ set_size()\l+ set_hash()\l+ set_print()\l+ mark()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+}

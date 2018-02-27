@@ -1,0 +1,10 @@
+digraph "d3::set&lt; Key, Compare, Allocator &gt;"
+{
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node1 [label="{d3::set\< Key, Compare,\l Allocator \>\n||}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="orange",fontsize="10",style="solid",label=" \< GSDD \>" ,fontname="FreeSans"];
+  Node2 [label="{d3::set\< GSDD \>\n||}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structd3_1_1set.html"];
+  Node1 -> Node3 [dir="back",color="orange",fontsize="10",style="solid",label=" \< GDDD \>" ,fontname="FreeSans"];
+  Node3 [label="{d3::set\< GDDD \>\n||}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structd3_1_1set.html"];
+}

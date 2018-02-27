@@ -1,0 +1,10 @@
+digraph "DDD"
+{
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node1 [label="{DDD\n||+ DDD()\l+ DDD()\l+ DDD()\l+ DDD()\l+ ~DDD()\l+ operator=()\l+ operator=()\l+ newcopy()\l+ set_intersect()\l+ set_union()\l+ set_minus()\l+ empty()\l+ empty_set()\l+ set_equal()\l+ set_less_than()\l+ set_size()\l+ set_hash()\l+ set_print()\l+ mark()\l* operator=()\l* operator=()\l* newcopy()\l* set_intersect()\l* set_union()\l* set_minus()\l* empty()\l* empty_set()\l* set_equal()\l* set_less_than()\l* set_size()\l* set_hash()\l* set_print()\l* mark()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="FreeSans"];
+  Node2 [label="{GDDD\n|+ one\l+ null\l+ top\l- concret\l|+ refCounter()\l+ size()\l+ nbsons()\l+ nbStates()\l+ noSharedSize()\l+ GDDD()\l+ GDDD()\l+ GDDD()\l+ GDDD()\l+ operator==()\l+ operator!=()\l+ operator\<()\l+ varName()\l+ getvarName()\l- GDDD()\l- GDDD()\l- print()\l- saveNode()\l- nodeIndex()\l* val_t\l* edge_t\l* Valuation\l* const_iterator\l* variable()\l* begin()\l* end()\l* saveDDD\l* loadDDD\l* one\l* null\l* top\l* GDDD()\l* GDDD()\l* GDDD()\l* GDDD()\l* operator==()\l* operator!=()\l* operator\<()\l* mark()\l* hash()\l* statistics()\l* garbage()\l* pstats()\l* peak()\l* varName()\l* getvarName()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classGDDD.html",tooltip="This class is the base class representing a Data Decision Diagram. "];
+  Node3 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="FreeSans"];
+  Node3 [label="{DataSet\n||+ ~DataSet()\l+ newcopy()\l+ set_intersect()\l+ set_union()\l+ set_minus()\l+ empty()\l+ empty_set()\l+ set_equal()\l+ set_less_than()\l+ set_size()\l+ set_hash()\l+ set_print()\l+ mark()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classDataSet.html",tooltip="This class is an abstraction of a set of data. "];
+}

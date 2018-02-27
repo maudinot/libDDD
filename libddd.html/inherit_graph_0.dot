@@ -1,0 +1,19 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="_DED",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class__DED.html"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node2 [label="_DED_Add",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class__DED__Add.html"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node3 [label="_DED_Concat",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class__DED__Concat.html"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node4 [label="_DED_GDDD",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class__DED__GDDD.html"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node5 [label="_DED_Hom",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class__DED__Hom.html"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node6 [label="_DED_Minus",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class__DED__Minus.html"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="FreeSans"];
+  Node7 [label="_DED_Mult",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class__DED__Mult.html"];
+}

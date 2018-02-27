@@ -1,0 +1,6 @@
+digraph "_MLShom"
+{
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node1 [label="{_MLShom\n|- refCounter\l- marking\l|+ _MLShom()\l+ shouldCache()\l+ ~_MLShom()\l+ eval()\l+ hash()\l+ operator==()\l+ clone()\l- mark()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+}

@@ -1,0 +1,48 @@
+digraph "_GShom"
+{
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node1 [label="{_GShom\n|- _refCounter\l|+ has_image_skip()\l+ skip_variable()\l+ is_selector()\l+ get_range()\l+ _GShom()\l+ ~_GShom()\l+ operator==()\l+ hash()\l+ clone()\l+ has_image()\land 11 more...\l+ get_concret()\l- eval_skip()\l- immediat()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="FreeSans"];
+  Node2 [label="{MyGShom\n||}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classMyGShom.html"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="FreeSans"];
+  Node3 [label="{sns::Add\n|+ parameters\l- partition_cache\l- have_id\l|+ Add()\l+ get_have_id()\l+ operator==()\l+ hash()\l+ clone()\l+ has_image()\l+ is_selector()\l+ invert()\l+ skip_variable()\l+ get_range()\l+ get_partition()\l+ eval()\l+ mark()\l+ print()\l- factorizeByLevel()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsns_1_1Add.html"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="FreeSans"];
+  Node4 [label="{sns::And\n|+ parameters\l|+ And()\l+ operator==()\l+ hash()\l+ clone()\l+ is_selector()\l+ skip_variable()\l+ get_range()\l+ eval()\l+ mark()\l+ invert()\l+ has_image()\l+ print()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsns_1_1And.html",tooltip="A commutative composition of n homomorphisms. "];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="FreeSans"];
+  Node5 [label="{sns::Compose\n|+ left\l+ right\l|+ Compose()\l+ operator==()\l+ hash()\l+ clone()\l+ is_selector()\l+ invert()\l+ skip_variable()\l+ get_range()\l+ eval()\l+ has_image()\l+ mark()\l+ print()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsns_1_1Compose.html"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="FreeSans"];
+  Node6 [label="{sns::Constant\n|- value\l|+ Constant()\l+ immediat()\l+ operator==()\l+ hash()\l+ clone()\l+ eval()\l+ mark()\l+ invert()\l+ is_selector()\l+ print()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsns_1_1Constant.html"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="FreeSans"];
+  Node7 [label="{sns::Fixpoint\n|- arg\l- can_garbage\l|+ Fixpoint()\l+ operator==()\l+ hash()\l+ clone()\l+ skip_variable()\l+ get_range()\l+ is_selector()\l+ invert()\l+ eval()\l+ mark()\l+ print()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsns_1_1Fixpoint.html"];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="FreeSans"];
+  Node8 [label="{sns::HomMinus\n|- left\l- right\l|+ HomMinus()\l+ operator==()\l+ hash()\l+ clone()\l+ eval()\l+ invert()\l+ is_selector()\l+ mark()\l+ print()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsns_1_1HomMinus.html"];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="FreeSans"];
+  Node9 [label="{sns::Identity\n||+ Identity()\l+ immediat()\l+ operator==()\l+ hash()\l+ clone()\l+ is_selector()\l+ skip_variable()\l+ eval()\l+ invert()\l+ has_image()\l+ print()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsns_1_1Identity.html"];
+  Node1 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="FreeSans"];
+  Node10 [label="{sns::Inter\n|- left\l- right\l|+ Inter()\l+ operator==()\l+ hash()\l+ clone()\l+ eval()\l+ invert()\l+ has_image()\l+ is_selector()\l+ skip_variable()\l+ mark()\l+ print()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsns_1_1Inter.html"];
+  Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="FreeSans"];
+  Node11 [label="{sns::LeftConcat\n|- left\l- right\l|+ LeftConcat()\l+ operator==()\l+ hash()\l+ clone()\l+ eval()\l+ has_image()\l+ mark()\l+ print()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsns_1_1LeftConcat.html"];
+  Node1 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="FreeSans"];
+  Node12 [label="{sns::LocalApply\n|+ h\l+ target\l|+ LocalApply()\l+ LocalApply()\l+ skip_variable()\l+ is_selector()\l+ get_range()\l+ has_image()\l+ eval()\l+ mark()\l+ hash()\l+ invert()\l+ operator==()\l+ clone()\l+ print()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsns_1_1LocalApply.html"];
+  Node1 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="FreeSans"];
+  Node13 [label="{sns::Minus\n|- left\l- right\l|+ Minus()\l+ operator==()\l+ hash()\l+ clone()\l+ eval()\l+ invert()\l+ is_selector()\l+ mark()\l+ print()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsns_1_1Minus.html"];
+  Node1 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="FreeSans"];
+  Node14 [label="{sns::MLShomAdapter\n|- h\l|+ MLShomAdapter()\l+ operator==()\l+ hash()\l+ clone()\l+ eval()\l+ mark()\l+ print()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsns_1_1MLShomAdapter.html"];
+  Node1 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="FreeSans"];
+  Node15 [label="{sns::Mult\n|- left\l- right\l|+ Mult()\l+ operator==()\l+ hash()\l+ clone()\l+ eval()\l+ is_selector()\l+ invert()\l+ mark()\l+ print()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsns_1_1Mult.html"];
+  Node1 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="FreeSans"];
+  Node16 [label="{sns::RecFireSat\n|- sat\l- lf\l|+ RecFireSat()\l+ operator==()\l+ hash()\l+ clone()\l+ is_selector()\l+ invert()\l+ skip_variable()\l+ get_range()\l+ eval()\l+ mark()\l+ print()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsns_1_1RecFireSat.html"];
+  Node1 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="FreeSans"];
+  Node17 [label="{sns::RightConcat\n|- left\l- right\l|+ RightConcat()\l+ operator==()\l+ hash()\l+ clone()\l+ skip_variable()\l+ has_image()\l+ eval()\l+ mark()\l+ print()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsns_1_1RightConcat.html"];
+  Node1 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="FreeSans"];
+  Node18 [label="{sns::SApply2k\n|- value\l|+ SApply2k()\l+ operator==()\l+ hash()\l+ clone()\l+ eval()\l+ skip_variable()\l+ mark()\l+ invert()\l+ is_selector()\l+ print()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsns_1_1SApply2k.html"];
+  Node1 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="FreeSans"];
+  Node19 [label="{sns::SDomExtract\n|+ target\l|+ SDomExtract()\l+ SDomExtract()\l+ skip_variable()\l+ is_selector()\l+ eval()\l+ hash()\l+ operator==()\l+ clone()\l+ print()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsns_1_1SDomExtract.html",tooltip="Extractor of variable domains for invert computations. "];
+  Node1 -> Node20 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="FreeSans"];
+  Node20 [label="{sns::SLocalApply\n|+ h\l+ target\l|+ SLocalApply()\l+ SLocalApply()\l+ skip_variable()\l+ get_range()\l+ eval()\l+ mark()\l+ is_selector()\l+ hash()\l+ invert()\l+ has_image()\l+ operator==()\l+ clone()\l+ print()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsns_1_1SLocalApply.html"];
+  Node1 -> Node21 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="FreeSans"];
+  Node21 [label="{sns::SNotCond\n|+ cond_\l|+ SNotCond()\l+ skip_variable()\l+ get_range()\l+ is_selector()\l+ has_image()\l+ eval()\l+ mark()\l+ hash()\l+ operator==()\l+ clone()\l+ print()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classsns_1_1SNotCond.html"];
+  Node1 -> Node22 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="FreeSans"];
+  Node22 [label="{StrongShom\n||+ StrongShom()\l+ ~StrongShom()\l+ phiOne()\l+ phi()\l+ operator==()\l+ operator==()\l+ print()\l+ eval()\l+ has_image()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classStrongShom.html",tooltip="The abstract base class for user defined operations. "];
+}

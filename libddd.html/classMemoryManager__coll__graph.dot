@@ -1,0 +1,6 @@
+digraph "MemoryManager"
+{
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node1 [label="{MemoryManager\n|- hooks_\l- last_mem\l|+ nbDDD()\l+ nbDED()\l+ nbHom()\l+ nbSDD()\l+ nbSDED()\l+ nbShom()\l+ mark()\l+ mark()\l+ should_garbage()\l+ garbage()\l+ pstats()\l+ setGCThreshold()\l+ getPeakMemory()\l+ addHook()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+}

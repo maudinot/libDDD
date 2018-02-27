@@ -1,0 +1,8 @@
+digraph "hash_map&lt; Key, Data, HashKey, EqualKey &gt;"
+{
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node1 [label="{hash_map\< Key, Data,\l HashKey, EqualKey \>\n||}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="orange",fontsize="10",style="solid",label=" \< int, partition \>" ,fontname="FreeSans"];
+  Node2 [label="{hash_map\< int, partition \>\n||}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structhash__map.html"];
+}

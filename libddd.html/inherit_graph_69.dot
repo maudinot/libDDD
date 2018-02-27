@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="std::less\< GSDD \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structstd_1_1less_3_01GSDD_01_4.html",tooltip="Compares two SDD in hash tables. "];
+}

@@ -1,0 +1,16 @@
+digraph "StrongHom"
+{
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node1 [label="{StrongHom\n||+ StrongHom()\l+ ~StrongHom()\l+ phiOne()\l+ phi()\l+ operator==()\l+ operator==()\l+ print()\l+ eval()\l+ has_image()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="FreeSans"];
+  Node2 [label="{_GHom\n|- refCounter\l- marking\l- immediat\l- creation_counter\l|+ has_image_skip()\l+ skip_variable()\l+ is_selector()\l+ get_range()\l+ invert()\l+ _GHom()\l+ ~_GHom()\l+ operator==()\l+ operator\<()\l+ hash()\land 7 more...\l+ get_concret()\l- eval_skip()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class__GHom.html",tooltip="The concrete data class for Homomorphisms. "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="FreeSans"];
+  Node3 [label="{_incVar\n|- target\l- val\l|+ _incVar()\l+ skip_variable()\l+ get_range()\l+ invert()\l+ phiOne()\l+ phi()\l+ hash()\l+ operator==()\l+ clone()\l+ print()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class__incVar.html"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="FreeSans"];
+  Node4 [label="{_setVarConst\n|- var\l- val\l|+ _setVarConst()\l+ skip_variable()\l+ get_range()\l+ phiOne()\l+ phi()\l+ invert()\l+ hash()\l+ print()\l+ operator==()\l+ clone()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class__setVarConst.html"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="FreeSans"];
+  Node5 [label="{_VarCompState\n|- var\l- val\l- comp\l|+ _VarCompState()\l+ skip_variable()\l+ get_range()\l+ phiOne()\l+ phi()\l+ compose()\l+ negate()\l+ hash()\l+ is_selector()\l+ print()\l+ operator==()\l+ clone()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class__VarCompState.html"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal",fontname="FreeSans"];
+  Node6 [label="{_VarCompVar\n|- var1\l- var2\l- c\l|+ _VarCompVar()\l+ skip_variable()\l+ get_range()\l+ phiOne()\l+ phi()\l+ compose()\l+ hash()\l+ is_selector()\l+ print()\l+ operator==()\l+ clone()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class__VarCompVar.html"];
+}

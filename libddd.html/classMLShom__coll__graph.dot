@@ -1,0 +1,9 @@
+digraph "MLShom"
+{
+  edge [fontname="FreeSans",fontsize="10",labelfontname="FreeSans",labelfontsize="10"];
+  node [fontname="FreeSans",fontsize="10",shape=record];
+  Node1 [label="{MLShom\n||+ MLShom()\l+ MLShom()\l+ MLShom()\l+ MLShom()\l+ MLShom()\l+ MLShom()\l+ MLShom()\l+ ~MLShom()\l+ operator\<()\l+ operator==()\l+ hash()\l+ eval()\l+ operator()()\l+ garbage()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +id" ,arrowhead="odiamond",fontname="FreeSans"];
+  Node2 -> Node1 [color="grey25",fontsize="10",style="solid",label=" -concret" ,arrowhead="odiamond",fontname="FreeSans"];
+  Node2 [label="{_MLShom\n|- refCounter\l- marking\l|+ _MLShom()\l+ shouldCache()\l+ ~_MLShom()\l+ eval()\l+ hash()\l+ operator==()\l+ clone()\l- mark()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class__MLShom.html"];
+}
